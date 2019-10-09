@@ -27,7 +27,7 @@ function sleep(ms) {
   }
   
 async function load() {
-    await sleep(500);
+    await sleep(100);
     document.querySelector('main').style['display'] = "block"
     await sleep(100);
     document.querySelector('.loader').style['opacity'] = "0"
